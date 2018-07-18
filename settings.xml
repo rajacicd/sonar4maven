@@ -13,6 +13,7 @@
                 <sonar.jdbc.password>sonar</sonar.jdbc.password>
  
                 <!-- Optional URL to server. ddddDefault value is http://localhost:9000 -->
+                <!--ff Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url>
                   http://localhost:9000/sonar
                 </sonar.host.url>
