@@ -6,6 +6,11 @@ pipeline {
                 echo 'Hello World'
             }
         }
+         stage('Build') {
+            steps {
+                mvn compile
+            }
+        }
     }
     post { 
         failure { 
